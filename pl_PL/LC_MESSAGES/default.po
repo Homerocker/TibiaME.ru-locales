@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: TibiaME.ru\n"
 "POT-Creation-Date: 2026-06-19 23:12+0300\n"
-"PO-Revision-Date: 2026-06-19 23:14+0300\n"
+"PO-Revision-Date: 2026-06-20 08:58+0200\n"
 "Last-Translator: Molodoy <molodoy3561@gmail.com>\n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -28,8 +28,8 @@ msgid ""
 "All TibiaME rules are valid on this fansite. Please check FAQ section on "
 "tibiame.com."
 msgstr ""
-"Na tej stronie obowiązują wszystkie zasady TibiaME. Sprawdź sekcję FAQ na "
-"tibiame.com."
+"Na tej stronie fanowskiej obowiązują wszystkie zasady TibiaME. Sprawdź sekcję "
+"FAQ na tibiame.com."
 
 #: resources/views/agreement.blade.php:11
 msgid "Accounts"
@@ -80,23 +80,15 @@ msgid "Data reliability"
 msgstr "Niezawodność danych"
 
 #: resources/views/agreement.blade.php:31
-#, fuzzy
-#| msgid "Highscores are updated daily in 10 minutes after game server save."
 msgid "Highscores are updated daily at 00:10 UTC."
-msgstr ""
-"Najlepsze wyniki są aktualizowane codziennie 10 minut po zapisaniu serwera "
-"gry."
+msgstr "Najlepsze wyniki są aktualizowane codziennie o 02:10 czasu lokalnego."
 
 #: resources/views/agreement.blade.php:33
-#, fuzzy
-#| msgid ""
-#| "Highscores data are provided by tibiame.com and Tibia-ME.net is not "
-#| "responsible for its reliability."
 msgid ""
 "Highscores data are provided by tibiame.com and we are not responsible for "
 "its reliability."
 msgstr ""
-"Najlepsze wyniki są dostarczane przez TibiaME.com, TibiaME.ru nie ponosi "
+"Najlepsze wyniki są dostarczane przez TibiaME.com i nie ponosimy "
 "odpowiedzialności za ich wiarygodność."
 
 #: resources/views/agreement.blade.php:35
@@ -144,37 +136,24 @@ msgid "Privacy"
 msgstr "Prywatność"
 
 #: resources/views/agreement.blade.php:56
-#, fuzzy
-#| msgid ""
-#| "Tibia-ME.net never shares your hidden data (e.g. email, birth date) with "
-#| "anyone."
 msgid "We never share your hidden data (e.g. email, birth date) with anyone."
 msgstr ""
-"TibiaME.ru nigdy nie udostępnia nikomu Twoich ukrytych danych (np. adresu e-"
-"mail, daty urodzenia)."
+"Nigdy nie udostępniamy nikomu Twoich ukrytych danych (np. adresu e-mail, daty "
+"urodzenia)."
 
 #: resources/views/agreement.blade.php:58
-#, fuzzy
-#| msgid ""
-#| "Your passwords are encrypted and cannot be viewed by anyone, including "
-#| "Tibia-ME.net sfaff."
 msgid ""
 "Your passwords are encrypted and cannot be viewed by anyone, including our "
 "staff."
 msgstr ""
 "Twoje hasła są zaszyfrowane i nie mogą być oglądane przez nikogo, również "
-"przez zespół TibiaME.ru."
+"przez nasz zespół."
 
 #: resources/views/agreement.blade.php:60
-#, fuzzy
-#| msgid ""
-#| "Tibia-ME.net Admin may use your data to contact you (e.g. email, Yahoo ID, "
-#| "Skype ID, including hidden data)."
 msgid "We may use your data to contact you (e.g. email, including hidden data)."
 msgstr ""
-"Administrator TibiaMe.ru może wykorzystać twoje dane do skontaktowania się z "
-"Tobą (np. e-mail, identyfikator Yahoo ID, identyfikator Skype, w tym ukryte "
-"dane)."
+"Możemy wykorzystać twoje dane do skontaktowania się z Tobą (np. e-mail, w tym "
+"ukryte dane)."
 
 #: resources/views/agreement.blade.php:63
 msgid "Copyrights"
@@ -210,7 +189,7 @@ msgstr "Ten użytkownik nie posiada żadnych albumów."
 
 #: resources/views/album/home.blade.php:14
 msgid "all worlds"
-msgstr "światy"
+msgstr "wszystkie światy"
 
 #: resources/views/album/photos.blade.php:6
 msgid "This album is empty."
@@ -471,10 +450,8 @@ msgid "Effect"
 msgstr "Efekt"
 
 #: resources/views/content/monster.blade.php:24
-#, fuzzy
-#| msgid "exp"
 msgid "Exp"
-msgstr "exp"
+msgstr "Exp"
 
 #: resources/views/content/monster.blade.php:30
 #: resources/views/content/monsters.blade.php:15
@@ -486,7 +463,7 @@ msgstr "PZ"
 #: resources/views/content/monster.blade.php:36
 #: resources/views/content/monsters.blade.php:14
 msgid "Gold"
-msgstr ""
+msgstr "Złoto"
 
 #: resources/views/content/monster.blade.php:42
 #: resources/views/content/monsters.blade.php:16
@@ -882,9 +859,9 @@ msgstr "Brak nowych wiadomości prywatnych"
 #, python-format
 msgid "%d new letter"
 msgid_plural "%d new letters"
-msgstr[0] "%d nowa wiadomość prywatna"
-msgstr[1] "%d nowe wiadomości prywatne"
-msgstr[2] "%d nowych wiadomości prywatnych"
+msgstr[0] "%d nowa wiadomość"
+msgstr[1] "%d nowe wiadomości"
+msgstr[2] "%d nowych wiadomości"
 
 #: resources/views/layout.blade.php:112
 #, python-format
@@ -924,7 +901,7 @@ msgstr "Główna"
 
 #: resources/views/layout.blade.php:194
 msgid "Tibia and TibiaME are trademarks of CipSoft GmbH, Germany."
-msgstr "Tibia i TibiaME są znakami towarowymi firmy CipSoft GmbH, Niemcy."
+msgstr "Tibia i TibiaME są znakami towarowymi firmy CipSoft GmbH, Germany."
 
 #: resources/views/letters/list.blade.php:6
 #: resources/views/letters/view.blade.php:13
@@ -1008,7 +985,7 @@ msgstr "Możesz zobaczyć swoją nową wiadomość klikając w poniższy link:"
 
 #: resources/views/mail/letter_received.blade.php:8
 msgid "Unsubscribe"
-msgstr ""
+msgstr "Wypisz się"
 
 #: resources/views/mail/password_recovery.blade.php:3
 #, python-format
@@ -1647,10 +1624,8 @@ msgid "This nickname is already in use."
 msgstr "Ta nazwa gracza jest już używana."
 
 #: app/Http/Controllers/Auth.php:98 app/Http/Controllers/Forum.php:243
-#, fuzzy
-#| msgid "The %s field is not valid."
 msgid "The captcha field is not valid."
-msgstr "Wartość w polu %s jest niepoprawna."
+msgstr "Pole captcha jest nieprawidłowe."
 
 #: app/Http/Controllers/Auth.php:127
 #, php-format
@@ -1829,11 +1804,11 @@ msgstr ""
 #: app/Http/Controllers/Letters.php:40 app/Http/Controllers/Letters.php:43
 #: app/Http/Controllers/Letters.php:73
 msgid "Letters"
-msgstr "Wiadomości prywatne"
+msgstr "Wiadomości"
 
 #: app/Http/Controllers/Letters.php:107
 msgid "Letter has been sent."
-msgstr "Wiadomość prywatna została wysłana."
+msgstr "Wiadomość została wysłana."
 
 #: app/Http/Controllers/Memberlist.php:53
 msgid "Users online"
